@@ -48,6 +48,14 @@ html {
     scroll-behavior: smooth;
 }
 
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Medieval;
+}
+
 /*---------- HEADER START ----------*/
 ul{
     list-style: none;
