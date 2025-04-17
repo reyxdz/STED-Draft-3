@@ -31,6 +31,7 @@
 .slider .parent .glass-box .welcome{
     font-size: .9rem;
     color: #A99E82;
+    font-family: Medieval;
 }
 
 .slider .parent .glass-box .description{
@@ -41,7 +42,6 @@
     margin-top: 1.5rem;
     font-family: Poppins, sans-serif;
     font-weight: 300;
-    text-align: justify;
 }
 
 .glass-box {
@@ -72,11 +72,13 @@
 
     .slider .parent .glass-box .title{
         font-size: 1.3rem;
+        font-family: Medieval;
     }
 
     .slider .parent .glass-box .welcome{
         font-size: .7rem;
         margin-top: 0;
+        font-family: Medieval;
     }
 
     .slider .parent .glass-box .description{
