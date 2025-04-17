@@ -7,6 +7,8 @@
     color: var(--light-color);
     font-size: 1.75rem;
     margin-top: 5px;
+    font-family: Medieval;
+    text-align: justify;
 
     overflow: hidden;
     white-space: nowrap;
