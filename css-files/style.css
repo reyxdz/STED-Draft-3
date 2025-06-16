@@ -89,6 +89,7 @@ a{
     color: var(--light-color);
     font-weight: var(--font-medium);
     font-family: Medieval;
+    font-size: 20px;
 }
 
 .nav_close,
@@ -116,6 +117,10 @@ a{
         background: linear-gradient(
             to bottom, var(--dark-color) 50%, transparent
         );
+    }
+
+    .nav_logo{
+        font-size: 15px;
     }
 
     .nav_item{
@@ -229,62 +234,6 @@ a{
 .container{
     max-width: 1120px;
     margin-inline: 1.5rem;
-}
-
-/* Dropdown Menu Styles */
-.dropdown-menu {
-    display: none;
-    position: absolute;
-    background-color: var(--light-color);
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-    z-index: 1000;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    border-radius: 10px;
-    margin-top: 2rem;
-    opacity: 1;
-}
-
-.dropdown-menu li {
-    padding: 10px;
-}
-
-.dropdown-menu li a {
-    color: var(--dark-color);
-    text-decoration: none;
-    display: block;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-.dropdown-menu li a:hover {
-    background-color: var(--dark-color);
-    color: var(--light-color);
-    border-radius: 5px;
-}
-
-@media screen and (max-width: 1150px) {
-    .dropdown-menu {
-        width: 70%; /* Adjust the width as needed */
-        margin-left: 8rem; /* Reset margin-left */
-        margin-top: 0;
-    }
-
-    .dropdown-menu li a{
-        font-size: 12px;
-        font-weight: 600;
-    }
-
-    .dropdown-menu li a:hover {
-        background-color: var(--dark-color);
-        color: var(--light-color);
-        border-radius: 5px;
-    }
-}
-
-.show-dropdown{
-    display: block;
 }
 /*---------- HEADER END ----------*/
 
