@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
 :root{
     --light-color: #E1D3B6;
     --dark-color: #010101;
@@ -7,6 +10,10 @@
     color: var(--light-color);
     font-size: 1.75rem;
     margin-top: 5px;
+<<<<<<< HEAD
+=======
+    font-family: Medieval;
+>>>>>>> 972286598655431f88bfd09f4006a84ac098d266
 
     overflow: hidden;
     white-space: nowrap;
@@ -17,7 +24,11 @@
 
 @keyframes typing {
     from { width: 0; }
+<<<<<<< HEAD
     to { width: 14ch; } /* Adjust based on character count */
+=======
+    to { width: 11ch; } /* Adjust based on character count */
+>>>>>>> 972286598655431f88bfd09f4006a84ac098d266
 }
 
 @keyframes blink {
@@ -27,6 +38,7 @@
 .slider .parent .glass-box .welcome{
     font-size: .9rem;
     color: #A99E82;
+    font-family: Medieval;
 }
 
 .slider .parent .glass-box .description{
@@ -43,7 +55,11 @@
 
 .glass-box {
     width: 80%;
+<<<<<<< HEAD
     height: 50vh;
+=======
+    min-height: 50vh;
+>>>>>>> 972286598655431f88bfd09f4006a84ac098d266
     background: rgba(1, 1, 1, 0.6); /* darker glass effect */
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3); /* a bit more intense shadow for contrast */
@@ -64,16 +80,22 @@
 
 @media (max-width: 767px) {
     .glass-box{
+<<<<<<< HEAD
         height: 80vh;
+=======
+        min-height: 60vh;
+>>>>>>> 972286598655431f88bfd09f4006a84ac098d266
     }
 
     .slider .parent .glass-box .title{
         font-size: 1.3rem;
+        font-family: Medieval;
     }
 
     .slider .parent .glass-box .welcome{
         font-size: .7rem;
         margin-top: 0;
+        font-family: Medieval;
     }
 
     .slider .parent .glass-box .description{
